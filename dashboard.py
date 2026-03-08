@@ -9,7 +9,7 @@ st.title("AI Predictive Maintenance Dashboard")
 st.write("Monitor machine health and detect anomalies in real-time.")
 
 # System Overview
-st.subheader("📊 System Overview")
+st.subheader("System Overview")
 
 col1, col2, col3, col4 = st.columns(4)
 
@@ -78,5 +78,6 @@ with tab2:
     colA.success("Machine C: Normal")
 
     colB.write("### Alerts")
-    colB.error("⚠ Temperature spike detected")
-    colB.warning("⚠ Vibration level approaching threshold")
+    colB.error("Temperature spike detected")
+
+    colB.warning("Vibration level approaching threshold")
